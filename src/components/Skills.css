@@ -1,0 +1,116 @@
+/* .skill-box{
+    margin-top: 100px;
+}
+.logo{
+display: flex;
+justify-content: center;
+font-size: 17px;
+text-transform: capitalize;
+}
+.about-skill{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    background:linear-gradient(26deg, #52c234,#134E5E); 
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+}
+.skill:hover{
+   transform: scale(1.05);
+   border: 1px solid lightGray;
+   transition: 0.5s;
+} */
+
+
+.skill-box {
+    margin-top: 100px;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.about-skill {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* To create a consistent gap between the skills */
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    background: linear-gradient(26deg, #52c234, #134E5E);
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.5s ease, border 0.5s ease;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    border: 1px solid lightgray;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .skill-box {
+        padding: 0 15px;
+    }
+
+    .skill {
+        width: 80px;
+        height: 25px;
+        margin: 15px;
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-box {
+        padding: 0 10px;
+    }
+
+    .skill {
+        width: 70px;
+        height: 25px;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
