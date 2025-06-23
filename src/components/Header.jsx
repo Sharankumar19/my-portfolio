@@ -11,7 +11,7 @@ function Header(props){
                 {/* <li><AnchorLink className='anchor-link' offset={50}><p>Project</p></AnchorLink></li> */}
                 <li><AnchorLink className='anchor-link' offset={50} href='#contact' ><p>Contact</p></AnchorLink></li>
             </ul>
-            <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact' >Connect With Me</AnchorLink></div>
+            {/* <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact' >Connect With Me</AnchorLink></div> */}
         </div>
     )
 }
