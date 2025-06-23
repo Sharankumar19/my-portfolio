@@ -30,9 +30,9 @@ function Contact(){
     };
     return(
         <div id="contact" className='contact'>
-            <div className="contact-title">
+            {/* <div className="contact-title">
             <h2>Get in touch</h2>
-            </div>
+            </div> */}
         <div className="contact-section">
             <div className="contact-left">
             <h1>let's talk</h1>
